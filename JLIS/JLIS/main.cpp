@@ -42,23 +42,27 @@ int jlis(int indexA, int indexB) {
 }
 int main(int argc, const char * argv[]) {
     
-    int C = 0;
-    cin >> C;
- 
-    for(int i = 0; i < C; ++i) {
-        memset(cache, -1, sizeof(cache));
-//        memset(A, 0, sizeof(A));
-//        memset(B, 0, sizeof(B));
-        cin >> sizeA >> sizeB;
-        for(int j = 0; j < sizeA; ++j) {
-            cin >> A[j];
-        }
-        for(int k = 0; k < sizeB; ++k) {
-            cin >> B[k];
-        }
-        cout << jlis(-1,-1) << endl;
-        
+//    int C = 0;
+//    cin >> C;
+//
+//    for(int i = 0; i < C; ++i) {
+//        memset(cache, -1, sizeof(cache));
+////        memset(A, 0, sizeof(A));
+////        memset(B, 0, sizeof(B));
+//        cin >> sizeA >> sizeB;
+//        for(int j = 0; j < sizeA; ++j) {
+//            cin >> A[j];
+//        }
+//        for(int k = 0; k < sizeB; ++k) {
+//            cin >> B[k];
+//        }
+//        cout << jlis(-1,-1) << endl;
+//
+//    }
+//    return 0;
+    int i = -2;
+    while(++i) {
+        cout << "hi" << endl;
     }
     return 0;
-    
 }
